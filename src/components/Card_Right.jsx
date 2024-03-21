@@ -2,7 +2,7 @@ import React from "react";
 
 function Card_Right({ card_2_Data }) {
   return (
-    <div className="relative card w-[45%] h-[70vh] rounded-2xl  ">
+    <div className="relative my-10 card w-[95%] h-[70vh] rounded-2xl  ">
       <h1 className="absolute z-[99] top-1/2 -translate-y-1/2 text-8xl right-full translate-x-1/2 font-semibold text-[#CDEA68]">
         {card_2_Data.text.split("").map((item, index) => (
           <span>{item}</span>
