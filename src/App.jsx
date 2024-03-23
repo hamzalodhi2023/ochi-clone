@@ -6,6 +6,7 @@ import About from "./components/About";
 import Eyes from "./components/Eyes";
 import Featured from "./components/Featured";
 import Three_Cards from "./components/Three_Cards";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <div className="w-full py-10 px-10 flex items-center gap-4">
         <Three_Cards />
       </div>
+      <Footer />
     </div>
   );
 }
