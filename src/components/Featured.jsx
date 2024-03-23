@@ -17,8 +17,7 @@ function Featured() {
   ];
   const card_2_Data = [
     {
-      imageSource:
-        "https://ochi.design/wp-content/uploads/2022/09/Vise_front2-663x551.jpg",
+      imageSource: "src/assets/card.jpg",
       text: "VISE",
     },
     {

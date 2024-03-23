@@ -3,7 +3,7 @@ import { FaArrowUpLong } from "react-icons/fa6";
 
 function LandingPage() {
   return (
-    <div className="w-full h-screen bg-zinc-800 pt-1">
+    <div className="w-full h-screen bg-zinc-700 pt-1">
       <div className="textStructure mt-40 px-20">
         {["WE CREATE", "EYE-OPENING", "PRESENTATIONS"].map((item, index) => (
           <div key={index} className="masker ">
