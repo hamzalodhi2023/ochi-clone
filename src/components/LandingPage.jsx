@@ -4,13 +4,23 @@ import { FaArrowUpLong } from "react-icons/fa6";
 
 function LandingPage() {
   return (
-    <div className="w-full h-screen bg-zinc-900 pt-1">
+    <div
+      data-scroll
+      data-scroll-section
+      data-scroll-speed="-.4"
+      className="w-full h-screen bg-zinc-900 pt-1"
+    >
       <div className="textStructure mt-40 px-20">
         {["WE CREATE", "EYE-OPENING", "PRESENTATIONS"].map((item, index) => (
           <div key={index} className="masker ">
             <div className="w-fit flex items-center ">
               {index === 1 && (
-                <motion.div className="w-[9vw] h-[5.7vw] bg-red-500 rounded-md relative top-[0.5vw] overflow-hidden">
+                <motion.div
+                  initial={{ width: 0 }}
+                  animate={{ width: "9vw" }}
+                  transition={{ ease: [0.76, 0, 0.24, 1], duration: 1 }}
+                  className="w-[9vw] h-[5.7vw] bg-red-500 rounded-md relative top-[0.5vw] overflow-hidden"
+                >
                   <img
                     src="src/assets/LandingPageElement.jpg"
                     alt=""
