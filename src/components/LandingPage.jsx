@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import React from "react";
 import { FaArrowUpLong } from "react-icons/fa6";
-
+import LandingPageElement from "../assets/LandingPageElement.jpg";
 function LandingPage() {
   return (
     <div
@@ -22,7 +22,7 @@ function LandingPage() {
                   className="w-[9vw] h-[5.7vw] bg-red-500 rounded-md relative top-[0.5vw] overflow-hidden"
                 >
                   <img
-                    src="src/assets/LandingPageElement.jpg"
+                    src={LandingPageElement}
                     alt=""
                     className="w-full h-full object-cover"
                   />

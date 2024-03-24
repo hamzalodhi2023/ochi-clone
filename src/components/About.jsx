@@ -1,4 +1,5 @@
 import React from "react";
+import Homepage from "../assets/Homepage-Photo-663x469.jpg";
 
 function About() {
   return (
@@ -17,11 +18,7 @@ function About() {
           </button>
         </div>
         <div className="w-1/2 h-[70vh] rounded-3xl bg-red-700 overflow-hidden">
-          <img
-            src="src/assets/Homepage-Photo-663x469.jpg"
-            alt=""
-            className="w-full h-full object-cover"
-          />
+          <img src={Homepage} alt="" className="w-full h-full object-cover" />
         </div>
       </div>
     </div>

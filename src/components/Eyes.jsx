@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-
+import Top_Viewbbcbv from "../assets/Top-Viewbbcbv-1-1440x921.jpg";
 function Eyes() {
   const [rotate, setRotate] = useState(0);
   useEffect(() => {
@@ -20,7 +20,8 @@ function Eyes() {
       <div
         data-scroll
         data-scroll-speed="-.7"
-        className="relative flex items-center justify-center w-full h-full bg-red-500 bg-cover bg-center bg-[url('src/assets/Top-Viewbbcbv-1-1440x921.jpg')]"
+        className="relative flex items-center justify-center w-full h-full bg-red-500 bg-cover bg-center "
+        style={{ backgroundImage: `url(${Top_Viewbbcbv})` }}
       >
         <div className="absolute flex gap-10 ">
           <div className="flex items-center justify-center w-[15vw] h-[15vw] rounded-full bg-zinc-100">
