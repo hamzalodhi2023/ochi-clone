@@ -19,7 +19,7 @@ function App() {
       <About />
       <Eyes />
       <Featured />
-      <div className="w-full py-10 px-10 flex items-center gap-4">
+      <div className=" overflow-hidden w-full py-10 px-10 flex items-center gap-4">
         <Three_Cards />
       </div>
       <Footer />
