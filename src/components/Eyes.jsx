@@ -17,7 +17,11 @@ function Eyes() {
 
   return (
     <div className="w-full h-screen overflow-hidden">
-      <div className="relative flex items-center justify-center w-full h-full bg-red-500 bg-cover bg-center bg-[url('src/assets/Top-Viewbbcbv-1-1440x921.jpg')]">
+      <div
+        data-scroll
+        data-scroll-speed="-.7"
+        className="relative flex items-center justify-center w-full h-full bg-red-500 bg-cover bg-center bg-[url('src/assets/Top-Viewbbcbv-1-1440x921.jpg')]"
+      >
         <div className="absolute flex gap-10 ">
           <div className="flex items-center justify-center w-[15vw] h-[15vw] rounded-full bg-zinc-100">
             <div className="relative w-2/3 h-2/3 rounded-full bg-zinc-900">
